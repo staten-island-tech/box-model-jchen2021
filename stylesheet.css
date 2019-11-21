@@ -3,32 +3,66 @@ html{
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+        
 }
 div{
     text-align: center;
     font-family: 'Rubik', sans-serif;
 }
+#h2{
+    position: absolute;
+    color: wheat;
+    letter-spacing: 0.5rem;
+    font-size: 5rem;
+    top: 25rem;
+    left:90rem;
+    text-underline-position: auto;
+    z-index: 3;
+}
+p{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
 
-.top{
+/* .text-box{
+    position: absolute;
+    background-color: red;
+    height: 5rem;
     margin: 0 auto;
-    height: 50vh;
-}
-#header{
-    z-index: 2;
-}
 
-.image-box{
-    position: relative;
-    background-color: aquamarine;
-    height: 60vh;
-    width: 50vh;
-    margin: 0 auto;
-
-}
-.fix-image{
+}  */
+/* .fix-image{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 20vh;
+    height: 30vh;
+} */
+
+.top{
+    margin-top: 0rem;;
+    text-align: center;
+    position: relative;
+}
+#header{
+    position: absolute;
+    font-size: 10rem;
+    color: rgb(113, 235, 235);
+    top: 7rem;
+    left: 75rem;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    z-index: 2;
+    border: solid snow 0.5rem;
+}
+.pic{
+    height: 50vh;
+}
+#roof{
+    margin-left: 5vh;
+
+}
+#China{
+    margin-left: 10vh;
+    z-index: 2;
 }
